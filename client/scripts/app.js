@@ -41,7 +41,7 @@ var app = {
     $.ajax({
       url: app.server,
       type: 'POST',
-      data: message,
+      data: 1,
       success: function (data) {
         // Clear messages input
         app.$message.val('');

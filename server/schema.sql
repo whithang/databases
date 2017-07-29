@@ -18,7 +18,7 @@ CREATE TABLE rooms (
 CREATE TABLE messages (
   id int NOT NULL AUTO_INCREMENT,
   message text,
-  message_time datetime NOT NULL,
+  createdAt datetime NOT NULL,
   user_id int,
   room_id int,
   FOREIGN KEY (user_id) REFERENCES users(id),
