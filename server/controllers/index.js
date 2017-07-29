@@ -1,5 +1,8 @@
 var models = require('../models');
 
+//controller is going to handle request from the client
+//it will pass get and post requests for the model to process
+
 module.exports = {
   messages: {
     get: function (req, res) {}, // a function which handles a get request for all messages
